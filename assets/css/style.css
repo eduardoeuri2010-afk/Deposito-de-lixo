@@ -1,0 +1,23 @@
+body {
+    background-color: #00000086;
+}
+.texto{
+    font-size: 20px;
+    color: #00ff37;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: #ffffff;
+
+}
+p{
+    font-size: 20px;
+    color: #9fffa3;
+    text-align: center;
+}
