@@ -1,6 +1,12 @@
 body {
     background-color: #00000086;
 }
+header {
+    background-color: #000000;
+    color: #00ff37;
+    padding: 20px;
+    text-align: center;
+}
 .texto{
     font-size: 20px;
     color: #00ff37;
@@ -13,8 +19,8 @@ h1{
 }
 h2{
     font-size: 30px;
-    color: #ffffff;
-
+    color: #bdffad;
+    text-align: center;
 }
 p{
     font-size: 20px;
