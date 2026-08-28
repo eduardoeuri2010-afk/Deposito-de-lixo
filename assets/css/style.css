@@ -5,12 +5,12 @@
 }
 body {
     font-family: Arial, helvetica, sans-serif;
-    background-color: #460000;
-    color: #333;
+    background-color: #981e32;
+    color: #131313;
     line-height: 1.6;
 }
 header {
-    background-color: #6b1818;
+    background-color: #981e32;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -32,5 +32,35 @@ header {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #f8f0f0;
+    color: #000000;
+    text-align: center;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #111111;
+    text-align: center;
+}
+.card {
+    background-color: #f9f9f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: #ffb765;
+    text-align: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f9f9f8;
+}
+.logo::first-letter {
+    color: #981e32;
 }
