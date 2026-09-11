@@ -1,154 +1,206 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alfa Morreu</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alfa Morreu</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            Alfa Morreu
-        </div>
-        <nav class="pesquisa">
-            <a href="index.htm">Início</a>
-            <a href="./page3.html">Noticias</a>
+	<header>
+		<div class="logo">
+			Alfa Morreu
+		</div>
+		<nav class="pesquisa">
+			<a href="index.htm">Início</a>
+			<a href="#noticias">Noticias</a>
+			<a href="#pistas">Pistas</a>
+		</nav>
+	</header>
 
-            <a href="classificação.html">Classificação</a>
-            <a href="./temporadas.html">Pistas</a>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Seção de Destaque -->
-        <section id="inicio" class="destaque">
-            <img src="./assets/img/image.png" alt="RPG Ordem Paranormal">
-            
-            <div class="destaque-conteudo">
-                <span class="categoria">DESTAQUE</span>
-                <h1>O que é a Formula 1</h1>
-                <p>A Formula 1 é um campeonato de automobilismo que reúne os melhores pilotos e equipes do mundo em competições de alta tecnologia e velocidade.</p>
-                <button class="botao" id="destaquebutton">Saiba mais</button>
-            </div>
-        </section>
+	<main>
+		<!-- Seção de Destaque -->
+		<section id="inicio" class="destaque">
+			<img src="./assets/img/image.png" alt="RPG Ordem Paranormal">
+			
+			<div class="destaque-conteudo">
+				<span class="categoria">DESTAQUE</span>
+				<h1>O que é a Formula 1</h1>
+				<p>A Formula 1 é um campeonato de automobilismo que reúne os melhores pilotos e equipes do mundo em competições de alta tecnologia e velocidade.</p>
+				<button class="botao" id="destaquebutton">Saiba mais</button>
+			</div>
+		</section>
 <!-- Seção de Notícias -->
 <section id="noticias" class="secao">
 
-    <!-- Cabeçalho da seção (Fechado corretamente) -->
-    <div class="titulo">
-        <div>
-            <span>NOTÍCIAS</span>
-            <h2>Últimas Notícias</h2>
-        </div>
-        <a href="#">Ver todos</a>
-    </div> <!-- <--- A div "titulo" precisa fechar AQUI -->
+	<!-- Cabeçalho da seção (Fechado corretamente) -->
+	<div class="titulo">
+		<div>
+			<span>NOTÍCIAS</span>
+			<h2>Últimas Notícias</h2>
+		</div>
+		<a href="#">Ver todos</a>
+	</div> <!-- <--- A div "titulo" precisa fechar AQUI -->
 
-    <!-- Container das notícias abaixo do título -->
-    <div class="noticias-grid">
+	<!-- Container das notícias abaixo do título -->
+	<div class="noticias-grid">
 
-        <!-- Notícia 1 -->
-        <article class="Notícia1">
-            <img src="https://grandepremio.com/wp-content/uploads/2026/09/F1-2026-ITALIA-MONZA-MERCEDES-KIMI-ANTONELLI-9-768x432.png" alt="Notícia1">
-            <div class="noticia-conteudo">
-                <span class="categoria">Notícia</span>
-                <h3>Kimi Antonelli ganha o Grande Prêmio de Monza</h3>
-                <p>Kimi Antonelli venceu o Grande Prêmio de Monza com uma performance impressionante, largando de 19º lugar e conquistando a vitória.</p>
-                <button class="ler-button">Leia mais -></button>
-            </div>        </article><br>
+		<!-- Notícia 1 -->
+		<article class="Notícia1">
+			<img src="https://grandepremio.com/wp-content/uploads/2026/09/F1-2026-ITALIA-MONZA-MERCEDES-KIMI-ANTONELLI-9-768x432.png" alt="Notícia1">
+			<div class="noticia-conteudo">
+				<span class="categoria">Notícia</span>
+				<h3>Kimi Antonelli ganha o Grande Prêmio de Monza</h3>
+				<p>Kimi Antonelli venceu o Grande Prêmio de Monza com uma performance impressionante, largando de 19º lugar e conquistando a vitória.</p>
+				<button class="ler-button">Leia mais -></button>
+			</div>        </article><br>
 
-        <!-- Notícia 2 -->
-        <article class="noticia">
-            <img src="https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/09/Captura-de-tela-2026-09-06-101651.png?w=660&h=440&quality=75" alt="Notícia2">
-            <div class="noticia-conteudo">
-                <span class="categoria">Notícia</span>
-                <h3>Charles Leclerc sofre acidente na 1ª volta do Grande Prêmio de Monza</h3>
-                <p>Charles Leclerc sofreu um acidente na 1ª volta do Grande Prêmio de Monza, o que impactou sua corrida e a de sua equipe, fazendo ocorrer uma bandeira vermelha.</p>
-                <button class="ler-button">Leia mais -></button>
-            </div>
-        </article><br>
-                <!-- Notícia 3 -->
-        <article class="noticia">
-            <img src="https://tse4.mm.bing.net/th/id/OIP.oKlm6V4N8KH9xxWjYnpr1AHaJQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Notícia3">
-            <div class="noticia-conteudo">
-                <span class="categoria">Notícia</span>
-                <h3>O próximo Grande Prêmio será realizado em Madrid</h3>
-                <p>O próximo Grande Prêmio da temporada 2026 será realizado em Madrid, na Espanha, durante os dias 11 a 13 de setembro.</p>
-                <button class="ler-button">Leia mais -></button>
-            </div>
-        </article><br>
-                <!-- Notícia 4 -->
-        <article class="noticia">
-            <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=750,quality=60,fit=pad,format=webp/uploads/2026/09/pierre-gasly-gp-italia-f1-4-scaled.jpg" alt="Notícia4">
-            <div class="noticia-conteudo">
-                <span class="categoria">Notícia</span>
-                <h3>Pierre Gasly conquistou pole position no Grande Prêmio de Monza</h3>
-                <p>Pierre Gasly conquistou a pole position no Grande Prêmio de Monza, demonstrando um desempenho excepcional durante a qualificação.</p>
-                <button class="ler-button">Leia mais -></button>
-            </div>
-        </article><br>
-                <!-- Notícia 5 -->
-        <article class="noticia">
-            <img src="https://tse4.mm.bing.net/th/id/OIP.kfPPN9ZfnrcuV2upwWL-2AAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Notícia5">
-            <div class="noticia-conteudo">
-                <span class="categoria">Notícia</span>
-                <h3>A última sprint race ocorrera em Singapura</h3>
-                <p>O Grande Prêmio de Singapura será realizado nos dias 9 a 11 de outubro, com o dia 9 contendo o sprint shootout e no dia 10 a sprint.</p>
-                <button class="ler-button">Leia mais -></button>
-            </div>
-        </article><br>
-                <!-- Notícia 6 -->
-        <article class="noticia">
-            <img src="https://tse3.mm.bing.net/th/id/OIP.L5tHRxP_bVFO2UgZ3dFEnAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Notícia6">
-            <div class="noticia-conteudo">
-                <span class="categoria">Notícia</span>
-                <h3>Mercedes lidera o campeonato de construtores</h3>
-                <p>Mercedes mantém a liderança do campeonato de construtores da Fórmula 1, com uma série de vitórias impressionantes na temporada 2026.</p>
-                <button class="ler-button">Leia mais -></button>
-            </div>
-        </article>
+		<!-- Notícia 2 -->
+		<article class="noticia">
+			<img src="https://admin.itatiaia.com.br/wp-content/uploads/sites/27/2026/09/Captura-de-tela-2026-09-06-101651.png?w=660&h=440&quality=75" alt="Notícia2">
+			<div class="noticia-conteudo">
+				<span class="categoria">Notícia</span>
+				<h3>Charles Leclerc sofre acidente na 1ª volta do Grande Prêmio de Monza</h3>
+				<p>Charles Leclerc sofreu um acidente na 1ª volta do Grande Prêmio de Monza, o que impactou sua corrida e a de sua equipe, fazendo ocorrer uma bandeira vermelha.</p>
+				<button class="ler-button">Leia mais -></button>
+			</div>
+		</article><br>
+				<!-- Notícia 3 -->
+		<article class="noticia">
+			<img src="https://tse4.mm.bing.net/th/id/OIP.oKlm6V4N8KH9xxWjYnpr1AHaJQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Notícia3">
+			<div class="noticia-conteudo">
+				<span class="categoria">Notícia</span>
+				<h3>O próximo Grande Prêmio será realizado em Madrid</h3>
+				<p>O próximo Grande Prêmio da temporada 2026 será realizado em Madrid, na Espanha, durante os dias 11 a 13 de setembro.</p>
+				<button class="ler-button">Leia mais -></button>
+			</div>
+		</article><br>
+				<!-- Notícia 4 -->
+		<article class="noticia">
+			<img src="https://lncimg.lance.com.br/cdn-cgi/image/width=750,quality=60,fit=pad,format=webp/uploads/2026/09/pierre-gasly-gp-italia-f1-4-scaled.jpg" alt="Notícia4">
+			<div class="noticia-conteudo">
+				<span class="categoria">Notícia</span>
+				<h3>Pierre Gasly conquistou pole position no Grande Prêmio de Monza</h3>
+				<p>Pierre Gasly conquistou a pole position no Grande Prêmio de Monza, demonstrando um desempenho excepcional durante a qualificação.</p>
+				<button class="ler-button">Leia mais -></button>
+			</div>
+		</article><br>
+				<!-- Notícia 5 -->
+		<article class="noticia">
+			<img src="https://tse4.mm.bing.net/th/id/OIP.kfPPN9ZfnrcuV2upwWL-2AAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Notícia5">
+			<div class="noticia-conteudo">
+				<span class="categoria">Notícia</span>
+				<h3>A última sprint race ocorrera em Singapura</h3>
+				<p>O Grande Prêmio de Singapura será realizado nos dias 9 a 11 de outubro, com o dia 9 contendo o sprint shootout e no dia 10 a sprint.</p>
+				<button class="ler-button">Leia mais -></button>
+			</div>
+		</article><br>
+				<!-- Notícia 6 -->
+		<article class="noticia">
+			<img src="https://tse3.mm.bing.net/th/id/OIP.L5tHRxP_bVFO2UgZ3dFEnAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Notícia6">
+			<div class="noticia-conteudo">
+				<span class="categoria">Notícia</span>
+				<h3>Mercedes lidera o campeonato de construtores</h3>
+				<p>Mercedes mantém a liderança do campeonato de construtores da Fórmula 1, com uma série de vitórias impressionantes na temporada 2026.</p>
+				<button class="ler-button">Leia mais -></button>
+			</div>
+		</article>
 
 
 
-    </div>
-    <!-- Fim da grid de notícias -->
-        </section>
+	</div>
+	<!-- Fim da grid de notícias -->
+		</section>
 
-        <section class="secao" id="pistas">
-            <div class="titulo">
-                <div>
-                    <span>PISTAS</span>
-                    <h2>Circuitos da Fórmula 1</h2>
-                </div>
-            </div>
+		<section class="secao" id="pistas">
+			<div class="titulo">
+				<div>
+					<span>PISTAS</span>
+					<h2>Circuitos da Fórmula 1</h2>
+				</div>
+			</div>
 
-            <div class="pistas-grid">
-                <article class="pista">
-                    <img src="https://th.bing.com/th/id/OSB.FHjmI5tQZEgN0QIAGaLwhw--.png?w=140&h=140&c=6&qlt=90&o=6&dpr=2&pid=BingSports" alt="lista de pilotos">
-                    <div>
-                        <span>MONZA</span>
-                        <h3>Circuitos da Monza</h3>
-                    </div>
-                </article>
+			<div class="pistas-grid">
+				<article class="pista">
+					<img src="https://th.bing.com/th/id/OSB.FHjmI5tQZEgN0QIAGaLwhw--.png?w=140&h=140&c=6&qlt=90&o=6&dpr=2&pid=BingSports" alt="lista de pilotos">
+					<div>
+						<span>MONZA</span>
+						<h3>Circuitos da Monza</h3>
+					</div>
+				</article>
 
-                <article class="pista">
-                    <img src="https://th.bing.com/th/id/OSB.Mq4SNanDjVspwWlFLjHqeA--.png?w=140&h=140&c=6&qlt=90&o=6&dpr=2&pid=BingSports" alt="lista de pilotos">
-                    <div>
-                        <span>INTERLAGOS</span>
-                        <h3>Circuito de São Paulo</h3>
-                    </div>
-                </article>
+				<article class="pista">
+					<img src="https://th.bing.com/th/id/OSB.Mq4SNanDjVspwWlFLjHqeA--.png?w=140&h=140&c=6&qlt=90&o=6&dpr=2&pid=BingSports" alt="lista de pilotos">
+					<div>
+						<span>INTERLAGOS</span>
+						<h3>Circuito de São Paulo</h3>
+					</div>
+				</article>
 
-                <article class="pista">
-                    <img src="https://th.bing.com/th/id/OSB.ghWfR684ibNBDU14BHwFQA--.png?w=140&h=140&c=6&qlt=90&o=6&dpr=2&pid=BingSports" alt="lista de pilotos">
-                    <div>
-                        <span>AZERBAIJÃO</span>
-                        <h3>Circuito de Baku</h3>
-                    </div> 
-                </article>
+				<article class="pista">
+					<img src="https://th.bing.com/th/id/OSB.ghWfR684ibNBDU14BHwFQA--.png?w=140&h=140&c=6&qlt=90&o=6&dpr=2&pid=BingSports" alt="lista de pilotos">
+					<div>
+						<span>AZERBAIJÃO</span>
+						<h3>Circuito de Baku</h3>
+					</div> 
+				</article>
 
-            </div>
-        </section>
-    </main>
+			</div>
+		</section>
+		<!-- AULA 11/09 -->
+		 <section class="secao">
+			<div class="titulo">
+				<div>
+					<span>POPULAR</span>
+					<h2>Mais Lidas</h2>
+				</div>
+			</div>
+			<div class="mais-lidas">
+				<article class="mais-lida">
+					<strong">01</strong>
+					<div>
+						<span>Noícias</span>
+						<h3>Kimi Antoneli vence o grande premio de Monza</h3>
+						<p>Kimi Antonelli fez uma corrida historica no Grande Premio de Monza, largando de 19º e alcançando a vitoria</p>
+						<button class="ler-button">Leia mais -></button>
+					</div>
+				</article>
+				<article class="mais-lida">
+					<strong>02</strong>
+					<div class="noticia-popular">
+						<span>Noícias</span>
+						<h3>Grande Premio de Madrid</h3>
+						<p>O grande premio de madrid teve seus dois primeiros treinos livres</p>
+						<button class="ler-button">Leia mais -></button>
+					</div>
+				</article>
+				<article class="mais-lida">
+					<strong>03</strong>
+					<div class="noticia-popular">
+						<span>Noícias</span>
+						<h3>Madrid promete ser um circuito com grandes promessas</h3>
+						<p>O circuito de Madrid fez sua estreia na temporada de 2026 e já com muita emoção</p>
+						<button class="ler-button">Leia mais -></button>
+					</div>
+				</article>
+			</div>
+		 </section>
+	</main>
+	<footer>
+		<div>
+			<strong>Automobilismo</strong>
+			<p>Notícias, classificação e curiosidades: para quem gosta de formula 1</p>
+		</div>
+		<div>
+			<h4>Navegação</h4>
+			<a href="#inicio"></a>
+			<a href="noticias"></a>
+			<a href="pistas"></a>
+		</div>
+		<div>
+			<h4>Projeto</h4>
+			<p>Desenvolvido com HTML, CSS e JavaScript</p>
+		</div>
+	</footer>
 </body>
 </html>
