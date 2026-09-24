@@ -1,10 +1,10 @@
 const imgsDestaque = [
-    "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/analog-horror.jpg",
-    "https://tse2.mm.bing.net/th/id/OIP.vdCE6bMX7hmTHi-PD56EdQHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "https://sm.ign.com/t/ign_br/video/t/top-25-wii/top-25-wii-u-games-spring-2015_fze4.1200.jpg"
+    "ttps://static1.cohlliderimages.com/wordpress/wp-content/uploads/2023/01/analog-horror.jpg",
+    "https://avatars.mds.yandex.net/i?id=0faeb43e73f2b684bef289b3c455a42087b7e77e-4012652-images-thumbs&n=13",
+    "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/analog-horror.jpg"
 ]
 
-let imagemAtual= 1;
+let imagemAtual= 0;
 
 const imagem = document.querySelector("#imagem-destaque")
 
@@ -16,4 +16,4 @@ setInterval(function (){
 
     imagem.src = imgsDestaque[imagemAtual]
 
-}, 5000)
+}, 4000)
